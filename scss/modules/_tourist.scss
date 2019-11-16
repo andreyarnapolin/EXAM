@@ -1,0 +1,43 @@
+.tourist {
+  color: var(--grey);
+  padding-top: 120px;
+  padding-bottom: 200px;
+  background: url(/images/travel.jpg) no-repeat;
+  background-size: cover;
+
+  &__title {
+    font: 400 36px/26px $aleo;
+    &--box {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 100px;
+    }
+  }
+
+  &__info {
+    padding: 50px 55px 50px 60px;
+    background: #333333;
+    width: 66%;
+  }
+
+  &__subtitle {
+    font: 400 20px/26px $josef;
+    margin-bottom: 35px;
+  }
+
+  &__text {
+    font: 400 16px $josef;
+    line-height: 1.63;
+  }
+  &__icon {
+    color: var(--blue);
+  }
+
+  &__description {
+    display: flex;
+  }
+
+  &__image {
+    width: 33%;
+  }
+}

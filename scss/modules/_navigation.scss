@@ -1,0 +1,35 @@
+.navigation {
+  background: var(--blue);
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  &__icon {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    a {
+      font: 700 24px/26px $josef;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+  &__block {
+  }
+  &__nav {
+  }
+  &__list {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+
+  &__item {
+  }
+  &__link {
+    text-decoration: none;
+    color: #fff;
+    font: 400 14px/26px $aleo;
+    text-transform: uppercase;
+  }
+}

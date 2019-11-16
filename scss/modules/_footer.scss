@@ -1,0 +1,32 @@
+.footer {
+  color: #fff;
+  background: #232323;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  &__title {
+    margin-bottom: 15px;
+    font: 700 24px/26px $josef;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    margin-bottom: 30px;
+    font: 400 16px/26px $josef;
+    letter-spacing: 1px;
+  }
+  &__icons {
+    a {
+      margin-left: 12px;
+      margin-right: 12px;
+      color: #fff;
+      &:hover {
+        color: var(--blue);
+      }
+    }
+  }
+}

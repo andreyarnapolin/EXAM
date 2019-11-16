@@ -1,0 +1,23 @@
+.button {
+  display: flex;
+  align-items: center;
+  font: 400 14px/26px $aleo;
+  letter-spacing: 1px;
+  padding: 22px 15px 22px 35px;
+  border: solid 2px #fff;
+  background: var(--blue);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.button-main {
+  display: block;
+  text-align: center;
+  width: 225px;
+  height: 60px;
+  font: 400 14px/60px $aleo;
+  background: var(--blue);
+  letter-spacing: 0.75px;
+  color: #fff;
+  text-transform: uppercase;
+}

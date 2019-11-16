@@ -1,0 +1,55 @@
+.header {
+  background: url(../images/header.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    font: 700 48px/26px $josef;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    font: 400 22px/26px $josef;
+    letter-spacing: 3.1px;
+    margin-bottom: 55px;
+  }
+  &__searchform {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 120px;
+  }
+  &__search {
+    color: #999;
+    font: 400 14px/26px $josef;
+    letter-spacing: 2px;
+    width: 500px;
+    text-align: center;
+  }
+  &__button {
+    i {
+      margin-left: 10px;
+      font-size: 25px;
+    }
+  }
+  &__scroll {
+    font: 400 14px/26px $josef;
+    letter-spacing: 2px;
+  }
+  &__link {
+    text-decoration: none;
+    color: #fff;
+  }
+  &__icon {
+    font-size: 45px;
+  }
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}

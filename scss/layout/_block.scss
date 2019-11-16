@@ -1,0 +1,17 @@
+.block {
+  color: var(--grey);
+  padding: 50px 30px;
+  background-color: rgba(35, 35, 35, 0.9);
+  font: 400 20px/26px $josef;
+
+  &__uptitle {
+    margin-bottom: 35px;
+  }
+  &__title {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  &__text {
+    margin-bottom: 50px;
+  }
+}
